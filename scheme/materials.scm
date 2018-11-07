@@ -1495,3 +1495,6 @@
  (E-susceptibilities
   (make lorentzian-susceptibility
     (frequency CdTe-frq1) (gamma CdTe-gam1) (sigma CdTe-sig1)))))
+
+;------------------------------------------------------------------
+; test
