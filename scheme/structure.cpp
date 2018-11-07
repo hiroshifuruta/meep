@@ -1361,7 +1361,7 @@ void geom_epsilon::add_susceptibilities(meep::field_type ft,
 	  sus = new meep::noisy_lorentzian_susceptibility(nd->noise_amp, d->frequency, d->gamma);
 	}
 	else { // just a Lorentzian
-	  master_printf("lorentzian susceptibility: frequency=%g, gamma=%g\n",
+	  master_printf("lorentzian susceptibility: frequency=%g, gamma=%g __\n",
 			d->frequency, d->gamma);
 	  sus = new meep::lorentzian_susceptibility(d->frequency, d->gamma);
 	}
